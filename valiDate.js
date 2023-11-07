@@ -84,3 +84,5 @@ const valiDate = (dateToday, appointmentDate) => {
 }
 
 const test = valiDate(todayFormated, myDateFormated) // test a date
+
+module.exports = valiDate;

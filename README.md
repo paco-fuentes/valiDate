@@ -30,6 +30,21 @@ dayjs.extend(customParseFormat);
 valiDate(todayFormated, myDateFormated); // Test a date
 ```
 
+### Import the Function in Another File
+
+To use the valiDate function in another JavaScript file, you can import it like this:
+```js
+// app.js
+
+const valiDate = require('./YOUR_PATH/valiDate'); // Specify the correct path to the valiDate.js file
+
+// ... (the rest of your code)
+
+valiDate(todayFormated, myDateFormated); // Call the valiDate function
+```
+
+Make sure to specify the correct path to the valiDate.js file in the require statement.
+
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
