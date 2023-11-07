@@ -1,0 +1,21 @@
+{
+  "name": "my-appointment-date-validator",
+  "version": "1.0.0",
+  "description": "date validator for my backend appointment app with not time trave to the past, not today and not in the weekend validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dayjs",
+    "nottimetraveltothepast",
+    "notweekend",
+    "nottoday",
+    "notinafarawayfuture"
+  ],
+  "author": "Paco Fuentes",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
